@@ -9,13 +9,9 @@ LTR_checker_validator is a comprehensive six-module validation procedure impleme
 ## Dependencies
 
 **Python 3.9+** with the following main packages:
-- PyTorch 1.11.0 (with CUDA support optional)
 - Biopython 1.85+
 - NumPy 1.24.3+
-- Pandas 2.2.3+
-- Matplotlib 3.9.4+
 - Seaborn 0.13.2+
-- Scikit-learn
 - tqdm 4.67.1+
 
 ### External Tools
@@ -25,9 +21,6 @@ LTR_checker_validator is a comprehensive six-module validation procedure impleme
 - **HMMER 3.4** - Protein domain annotation (hmmsearch)
 - **EMBOSS 6.6.0.0** - Sequence analysis utilities
 - **RepeatMasker 4.1.8** - Repeat sequence masking
-- **LTR_FINDER 1.07** - LTR retrotransposon detection
-- **GenomeTools 1.6.6** (includes LTR_HARVEST) - Alternative LTR retrotransposon detection
-- **LtrDetector** - Additional LTR retrotransposon detection capabilities
 - **MUSCLE 5.1.0**
 
 ### Database Files (Included)
