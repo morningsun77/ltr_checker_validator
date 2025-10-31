@@ -4,7 +4,7 @@
 
 ## Overview
 
-LTR_checker_validator is a comprehensive six-module validation procedure implemented into a Python pipeline that systematically evaluates structural integrity, temporal constraints, and functional features to retain only high-confidence intact LTR-RT. This Python pipeline sequentially implements: (Module 1) removal of gapped sequences, tandem repeats, and length validation; (Module 2) boundary refinement and target site duplication (TSD) verification; (Module 3) calculation of LTR divergence and filtering; (Module 4) protein domain identification and classification; (Module 5) Filtering LTR-RT with Non-LTR coding sequencescreening for overlapping transposable elements and plant protein domains; and (Module 6) Validation of nested insertion.
+LTR_checker_validator is a comprehensive six-module validation procedure implemented into a Python pipeline that systematically evaluates structural integrity, temporal constraints, and functional features to retain only high-confidence intact LTR-RT. This pipeline sequentially implements: (Module 1) removal of gapped sequences, tandem repeats, and length validation; (Module 2) boundary refinement and target site duplication (TSD) verification; (Module 3) calculation of LTR divergence and filtering; (Module 4) protein domain identification and classification; (Module 5) Filtering candidate with significant non-LTR sequence; and (Module 6) Validation of nested insertion.
 
 ## Dependencies
 
