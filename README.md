@@ -81,3 +81,15 @@ Required Arguments:
   --genome GENOME      genome file in fasta format [required]
   --output OUTPUT      output directory path [required]
 
+## Pipeline Workflow
+
+**Module 1: Removal of gapped sequences, tandem repeats, and length validation**
+**Module 2: boundary refinement and target site duplication (TSD) verification**
+**Module 3: calculation of LTR divergence and filtering**
+**Module 4: Protein domain identification and classification**
+**Module 5: Filtering candidate with significant non-LTR sequence**
+**Module 6: Validation of nested insertion**
+
+## Support
+
+For questions, issues, or feature requests, please contact Zhaoyang Chen(zhao-yamg.chen@umu.se) or Jianfeng Mao(jianfeng.mao@umu.se), or refer to the source code documentation.
