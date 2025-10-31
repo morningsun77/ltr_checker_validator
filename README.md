@@ -68,6 +68,7 @@ python validator.py --sequence ltr_candidates.fasta --genome genome.fasta --outp
 Note: The IDs in ltr_candidates.fasta have been modified to the following format:
 LTR_number, chr=chromosome, coords=LTR-RT_position, 5ltr=5'LTR_position, 3ltr=3'LTR_position, sim=similarity
 ```bash
+#Example
 >LTR_1 chr=Chr1 coords=156935:164480 5ltr=156935:157195 3ltr=164223:164480 sim=0.93
 TGTTGAAAGTGAATAAGATTGATTGAGCGAGAGGGATTGAGCGAGAGAGAATTGCACAAAGGAATGTAGGGAATGAATGAGC
 >LTR_2 chr=Chr1 coords=465118:477981 5ltr=465118:466192 3ltr=476907:477981 sim=1.00
