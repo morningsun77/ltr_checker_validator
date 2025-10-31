@@ -70,9 +70,9 @@ TGTCGGTGATATGGGACCGGGAGTATCATGACTAGAGGCTTGAGGCAGACACAATCGCCCACGTGGCCTGGCACCTTCGG
 ### Command-Line Options
 ```
 Required Arguments:
-  --sequence SEQUENCE  LTR-RT candidates file in fasta format [required]
-  --genome GENOME      genome file in fasta format [required]
-  --output OUTPUT      output directory path [required]
+--sequence SEQUENCE  LTR-RT candidates file in fasta format [required]
+--genome GENOME      genome file in fasta format [required]
+--output OUTPUT      output directory path [required]
 ```
 
 ## Support
