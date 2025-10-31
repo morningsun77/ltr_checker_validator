@@ -63,13 +63,20 @@ Place the required HMM profiles and reference sequences in the `dataset/` direct
 
 ### Basic Command
 ```bash
-python validator.py --genome input.fasta --output output_dir
+python validator.py --sequence ltr_candidates.fasta --genome genome.fasta --output output_dir
 ```
-
+Note: The IDs in ltr_candidates.fasta have been modified to the following format:
+LTR_number, chr=chromosome, coords=LTR-RT_position, 5ltr=5'LTR_position, 3ltr=3'LTR_position, sim=similarity
+```bash
+>LTR_1 chr=Chr1 coords=156935:164480 5ltr=156935:157195 3ltr=164223:164480 sim=0.93
+TGTTGAAAGTGAATAAGATTGATTGAGCGAGAGGGATTGAGCGAGAGAGAATTGCACAAAGGAATGTAGGGAATGAATGAGC
+>LTR_2 chr=Chr1 coords=465118:477981 5ltr=465118:466192 3ltr=476907:477981 sim=1.00
+TGTCGGTGATATGGGACCGGGAGTATCATGACTAGAGGCTTGAGGCAGACACAATCGCCCACGTGGCCTGGCACCTTCGGGG
+```
 ### Command-Line Options
 ```
 Required Arguments:
-  --sequence SEQUENCE  input LTR-RTs sequences in fasta format [required]
-  --genome GENOME      input genome in fasta format [required]
+  --sequence SEQUENCE  LTR-RT candidates file in fasta format [required]
+  --genome GENOME      genome file in fasta format [required]
   --output OUTPUT      output directory path [required]
 
