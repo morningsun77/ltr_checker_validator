@@ -1,6 +1,6 @@
 # ltr_checker_validator
 
-**LTR_checker_validator: a quality control pipeline for intact LRT-RT validation**
+**LTR_checker_validator: a quality control pipeline for intact LTR-RT validation**
 
 ## Overview
 
